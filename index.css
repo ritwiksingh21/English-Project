@@ -172,11 +172,11 @@ html, body{
     background-color: white;
     border-radius: 2px;
 }
-.otherpages{
-    background-color: green;
+#otherpages{
+    background-color: #37474F;
 }
 
-#intro{
+.intro{
     position: relative;
     padding-top: 2.7em;
     width: 70%;
@@ -188,13 +188,16 @@ html, body{
     letter-spacing: 3px;
     font-weight: 800;
 }
+.otherpagesintro{
+    color: #37474F;
+}
 
 #tagline{
     margin-top: 40px;
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 300;
-    color: white;
+    color: #37474F;
     
 }
 
@@ -302,7 +305,18 @@ html, body{
     box-sizing: border-box;
     padding: 40px 20px;
 }
-
+#cent{
+    margin:auto;
+    width: 80%;
+    height: 75%;
+  
+}
+#container2{
+    width:100%;
+    margin-top: 30px;
+    background-color: ;
+    padding: 40px 20px;
+}
 .container h2{
  font-weight: 500;   
 }
@@ -341,6 +355,7 @@ html, body{
 }
 .aboutcontainer{
     width: 49.8%;
+    margin-top: 1.5em;
     display: inline-block;
 }
 .aboutcontainer:first-child{
@@ -355,13 +370,13 @@ html, body{
     height: 24em;
     width: 100%;
     background-size: cover;
-    background-image: linear-gradient(rgb(0,0,0,0), rgb(231, 76, 60,1)), url("me.png");
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(231, 76, 60,1)), url("ritwik.jpg");
 }
 #aboutpic2{
     height: 24em;
     width: 100%;
     background-size: cover;
-    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,77,64, 1)), url("rv.jpg");
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,77,64, 1)), url("ravi.jpg");
 }
 .aboutpicname{
     opacity: ;
@@ -405,16 +420,16 @@ html, body{
     margin-bottom: 25px;
     display: inline-block;
     width: 26%;
-    height: 14em;
+    height: 11em;
     background-color: white;
-    border: 1px solid grey;
     text-align: center;
     box-sizing: border-box;
     padding-top: 20px;
     font-weight: 500;
     color: #37474F;
     font-size: 18px;
-    transition: .06s;
+    transition: .26s;
+    box-shadow:1px 1px 30px #c5cae9 ;
 }
 .catalog1{
     float:left;
@@ -427,9 +442,79 @@ html, body{
   
 }
 .catalog:hover{
-    box-shadow:1px 1px 30px #90A4AE;
+    box-shadow:1px 1px 30px #1a237e;
     cursor: pointer;
 }
+
+.videothum{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: inline-block;
+    width: 26%;
+    height: 8em;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+    font-weight: 500;
+    color: #37474F;
+    font-size: 18px;
+    line-height: 4.9em;
+    transition: .1s;
+    box-shadow:1px 1px 30px #c5cae9 ;
+}
+.videothum:hover{
+    border: 6px solid #66BB6A;
+    cursor: pointer;
+}
+
+#videotitle{
+    padding-top: 40px;
+    width: 80%;
+    margin: auto;
+    color: #212121;
+    text-align: center;
+    
+}
+#container2 a{
+    padding-top: 75px;
+    text-decoration: none;
+}
+#container2 a:visited{
+    color: #37474F;
+}
+#container2 a:active{
+    color: #b71c1c;
+}
+#videoname{
+    font-size: 24px;
+    font-weight: 500;
+    width: 70%;
+    margin: auto;
+    display: inline-block;
+}
+.lecbutton{
+    padding: 4px 7px;
+    font-weight: 500;
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    color: white;
+    background-color: #64B5F6;
+    transition: .2s;
+}
+.lecbutton:hover{
+    background-color: #1565C0;
+    cursor: pointer;
+    font-weight: 500;
+}
+.af{
+    float: right;
+}
+.bf{
+    float: left;
+}
+
 #catalogdes{
     font-size: 15px;
     font-weight: 100;
